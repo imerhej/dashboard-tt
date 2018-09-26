@@ -1,0 +1,91 @@
+/* Style Overrides Starts Here */
+
+/* navbar override */
+.navbar {
+  display:block;
+}
+
+.navbar-fixed-top {
+  border-width: 0;
+}
+/* navbar-brand override */
+.navbar-brand {
+  // height: 70px;
+  padding: 5px;
+}
+
+/* Dropdown menu override */
+.dropdown-toggle::after {
+  content: none;
+}
+
+/* Panel Override */
+.panel {
+  background-color: transparent;
+}
+
+.panel-default > .panel-heading {
+  background-color: transparent;
+}
+.panel-body {
+  padding: 4px;
+}
+
+/* Navbar-default Override */
+.navbar-default .navbar-nav > li > a {
+  color: #646464;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #52b4f9;
+  color: #fff;
+}
+
+select.form-control:not([size]):not([multiple]){
+  height: calc(2.25rem + 14px);
+}
+
+/* Card and card-footer override */
+#card {
+  background-color: #f7f7f7;
+}
+.card {
+  border: none;
+  word-wrap: normal;
+}
+.card-footer {
+  padding: 2em 3em;
+  border-top: none;
+}
+
+
+/* System settings at sidenav menu */
+.nav-item .nav-link {
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item .nav-link {
+    padding-left: 5px;
+  }
+}
+
+#dropdown-menu {
+  background-color: #e3f2fd;
+}
+ .dropdown-item {
+   padding: .5rem 1.5rem;
+   background-color: #e3f2fd;
+ }
+
+/* Modal Override */
+// .modal {
+//   padding-top: 100px;
+// }
